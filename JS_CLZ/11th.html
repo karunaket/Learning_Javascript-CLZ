@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switch-Case</title>
+</head>
+
+<body>
+
+  <script type="text/javascript">
+
+    var a = prompt("Enter 1st no. :");
+    var b = prompt("Enter 2nd no. :");
+    var x = prompt("Enter 1 for sum, 2 for product & 3 for greater no.:");
+
+    var s, p;
+
+    switch(x)
+    {
+      case "1": s = a + b;
+        document.write("Sum = " + s);
+        break;
+
+      case "2": p = a * b;
+        document.write("Product = " + s);
+        break;
+
+      case "3": if (a > b)
+        document.write(a + " is greater.");
+
+      else
+        document.write(b + " is greater.");
+
+      default:
+        document.write("Invalid Input");
+
+    }
+
+  </script>
+
+</body>
+
+</html>
